@@ -10,12 +10,12 @@ It helps students to learn most of the courses from there home itself and maps h
   - JavaScript
   -
    ### Core Azure Services Used
-  [Static Web Apps](https://azure.microsoft.com/en-us/services/app-service/static/#overview)
+  ## [Static Web Apps](https://azure.microsoft.com/en-us/services/app-service/static/#overview)
   When you create an Azure Static Web Apps resource, Azure interacts directly with GitHub or Azure DevOps to monitor a branch of your choice. Every time you push commits or accept pull requests into the watched branch, a build automatically runs and your app and API is deployed to Azure.
-  [Azure maps](https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Maps%2Faccounts)
+ ## [Azure maps](https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Maps%2Faccounts)
   Azure Maps provides developers from all industries, powerful geospatial capabilities, packed with the freshest mapping data available to provide geographic context to web and mobile applications. Azure Maps is an Azure One API compliant set of REST APIs for Maps, Search, Routing, Traffic, Mobility, Time Zones, Geolocation, Geofencing, Map Data, and Spatial Operations accompanied by both Web and Android SDKs to make development easy, flexible, and portable across multiple platforms.
   [Link for web page](https://ashy-desert-0adaed310.2.azurestaticapps.net)
- Images of web page
+### Images of web page
 <img width="907" alt="image" src="https://user-images.githubusercontent.com/82774108/197492867-94711498-ad20-49ff-ab91-8272167b15fd.png">
 <img width="881" alt="image" src="https://user-images.githubusercontent.com/82774108/197493087-d1d955a5-f0fc-4052-92b9-0ac26fac449d.png">
 <img width="929" alt="image" src="https://user-images.githubusercontent.com/82774108/197493238-14483a7d-6bf7-4da0-a2e1-9a2a072dec7a.png">
@@ -24,7 +24,9 @@ It helps students to learn most of the courses from there home itself and maps h
 <img width="912" alt="image" src="https://user-images.githubusercontent.com/82774108/197493433-0acd076d-06ac-4ef8-b88c-58d04d6441c7.png">
 <img width="899" alt="image" src="https://user-images.githubusercontent.com/82774108/197493506-2beb5724-1f9f-431d-9a78-7c2a330ac4f0.png">
 <img width="886" alt="image" src="https://user-images.githubusercontent.com/82774108/197493568-787b3a17-8ced-4ada-ae1b-51d258874b31.png">
-Images of azure map services
+### Images of azure map services
+
+
 <img width="856" alt="image" src="https://user-images.githubusercontent.com/82774108/197493767-cd94f1a7-65f9-44d7-a5b5-219e80014649.png">
 <img width="843" alt="image" src="https://user-images.githubusercontent.com/82774108/197494052-903610bb-4b7c-466b-b26d-2f905843cd86.png">
 <img width="954" alt="image" src="https://user-images.githubusercontent.com/82774108/197494257-6427e7bf-6286-4147-81d7-eaae378571e2.png">
