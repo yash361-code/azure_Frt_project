@@ -1,0 +1,30 @@
+import os, requests, uuid, json
+subscription_key = "YOUR_SUBSCRIPTION_KEY"
+endpoint = "https://api.cognitive.microsofttranslator.com"
+path = '/translate'
+constructed_url = endpoint + path
+
+params = {
+    'api-version': '3.0',
+    'to': ['de'], # target language
+    'textType': 'html' 
+}
+
+headers = {
+    'Ocp-Apim-Subscription-Key': subscription_key,
+    'Content-type': 'application/json',
+    'X-ClientTraceId': str(uuid.uuid4())
+}
+
+# You can pass more than one object in body.
+body = [{
+    "text": "<p>The samples on this page use hard-coded keys and endpoints for simplicity. \
+    Remember to <strong>remove the key from your code when you're done</strong>, and \
+    <strong>never post it publicly</strong>. For production, consider using a secure way of \
+    storing and accessing your credentials. See the Cognitive Services security article \
+    for more information.</p>"
+}]
+
+request = requests.post(constructed_url, params=params, headers=headers, json=body)
+response = request.json()
+print (response[0]['translations'][0]['text']) # shows how to access the translated text from response
